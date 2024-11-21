@@ -1,0 +1,23 @@
+.our-vision {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .vision-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .vision-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .vision-description {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  

@@ -1,0 +1,36 @@
+.hero {
+    height: 100vh;
+    background: url('../../img1.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .hero-overlay {
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .hero-overlay h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-overlay p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-cta {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #0073e6;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  

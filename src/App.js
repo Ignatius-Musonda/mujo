@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import NavBar from "./Components/NavBar/NavBar";
+import HeroSection from "./Components/HeroSection/HeroSection";
+import CTASection from "./Components/CTASection/CTASection";
+import OurServices from "./Components/OurServices/OurServices";
+import OurVision from "./Components/OurVision/OurVision";
+import OurChildren from "./Components/OurChildren/OurChildren";
+import OurPartners from "./Components/OurPartners/OurPartners";
+import Application2025 from "./Components/Application2025/Application2025";
+import SupportUs from "./Components/SupportUs/SupportUs";
+import Footer from "./Components/Footer/Footer";
 
-function App() {
+
+
+// import Navbar from "./components/Navbar";
+// import HeroSection from "./components/HeroSection";
+// import CTASection from "./components/CTASection";
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavBar />
+      <HeroSection/>
+      <CTASection/>
+      <OurServices/>
+      <OurVision/>
+      <OurChildren/>
+      <OurPartners/>
+      <Application2025/>
+      <SupportUs/>
+      <Footer/>
+      
     </div>
   );
-}
+};
 
 export default App;

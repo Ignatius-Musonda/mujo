@@ -1,0 +1,33 @@
+.hero {
+    position: relative;
+    height: 100vh;
+    background: url('./../img1.jpg') center/cover no-repeat;
+  }
+  
+  .hero-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-overlay h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-overlay p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-overlay .cta {
+    padding: 15px 30px;
+    background: #0073e6;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  

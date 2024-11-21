@@ -1,0 +1,48 @@
+.our-partners {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .partners-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .partners-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .partners-description {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 30px;
+  }
+  
+  .partners-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .partner-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .partner-logo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+  }
+  
+  .partner-logo:hover {
+    transform: scale(1.05);
+  }
+  

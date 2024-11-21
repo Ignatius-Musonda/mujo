@@ -1,0 +1,53 @@
+.application-2025 {
+    background-color: #e6f7ff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .application-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .application-2025 h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .application-description {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 30px;
+  }
+  
+  .apply-now-button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+  }
+  
+  .apply-now-button:hover {
+    background-color: #218838;
+  }
+  
+  .application-details {
+    margin-top: 30px;
+  }
+  
+  .application-details ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .application-details li {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  

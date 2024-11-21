@@ -1,0 +1,53 @@
+.support-us {
+    background-color: #f8f8f8;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .support-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .support-us h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .support-description {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 30px;
+  }
+  
+  .donate-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+  }
+  
+  .donate-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .payment-options {
+    margin-top: 30px;
+  }
+  
+  .payment-options ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .payment-options li {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
