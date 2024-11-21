@@ -5,9 +5,9 @@ const HeroSection = () => {
   return (
     <section className="hero">
       <div className="hero-overlay">
-        <h1>Welcome to Khan Lab School</h1>
+        <h1>Welcome to MUJO'S SKY LIMIT SCHOOL</h1>
         <p>Revolutionizing the way we learn.</p>
-        <a href="#learn-more" className="hero-cta">Learn More</a>
+        <a href="#learn-more" className="hero-cta">Apply now</a>
       </div>
     </section>
   );
