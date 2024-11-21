@@ -57,7 +57,8 @@ const OurChildren = () => {
         {isOpen && (
           <div className="lightbox" onClick={closeLightbox}>
             <div className="lightbox-content">
-              <img src={currentImage} alt="Enlarged view" />
+              {/* <img src={currentImage} alt="Enlarged view" /> */}
+              <img src={img1} alt="Enlarged view" />
               <span className="close-button" onClick={closeLightbox}>
                 &times;
               </span>

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import img1 from "../Images/mujos1.png"
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -7,7 +8,7 @@ const Navbar = () => {
   return (
     <header className="navbar">
       <div className="navbar-logo">
-        <img src="/logo.png" alt="Mujos school" />
+        <img src={img1} alt="Mujos school" />
       </div>
       <nav className={`navbar-links ${menuOpen ? "active" : ""}`}>
         <a href="#about">About Us</a>
