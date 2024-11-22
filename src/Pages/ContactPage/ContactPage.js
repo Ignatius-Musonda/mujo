@@ -4,10 +4,12 @@ import Hero from "../../Components/Hero/Hero";
 import Section from "../../Components/Section/Section";
 import Footer from "../../Components/Footer/Footer";
 import "./ContactPage.css";
+import ScrollToTop from "../../Components/ScrollTop/ScroolTop";
 
 const ContactPage = () => {
   return (
     <div className="contact-page">
+        <ScrollToTop/>
       <Navbar />
       <header className="contact-header">
         <h1>Contact Us</h1>

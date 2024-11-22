@@ -18,11 +18,13 @@ import FeesTable from "../../Components/FeesTable/FeesTable";
 
 
 import "./AdmissionPage.css";
+import ScrollToTop from "../../Components/ScrollTop/ScroolTop";
 
 
 const AdmissionPage = () => {
     return (
       <div className="page">
+        <ScrollToTop/>
         <Navbar />
         <Hero
           title="Admission & Fee Structure"

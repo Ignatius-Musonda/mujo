@@ -10,12 +10,14 @@ import "./AboutPage.css";
 import img1 from "../../Components/Images/img1.jpg"
 import Director from "../../Components/Images/Director.jpg"
 import pup10 from "../../Components/Images/pup10.jpg"
+import ScrollToTop from "../../Components/ScrollTop/ScroolTop";
 
 
 
 const AboutPage = () => {
   return (
     <div className="page">
+        <ScrollToTop/>
       <Navbar />
       <Hero
         title="About Mujo’s Sky Limit School"

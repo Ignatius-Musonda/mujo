@@ -10,6 +10,7 @@ import OurPartners from "../../Components/OurPartners/OurPartners";
 import Application2025 from "../../Components/Application2025/Application2025";
 import SupportUs from "../../Components/SupportUs/SupportUs";
 import Footer from "../../Components/Footer/Footer";
+import ScrollToTop from '../../Components/ScrollTop/ScroolTop';
 
 
 
@@ -17,6 +18,7 @@ import Footer from "../../Components/Footer/Footer";
 function Landing() {
   return (
     <div>   
+        <ScrollToTop/>
 
 <NavBar />
       <HeroSection/>
