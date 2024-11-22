@@ -19,7 +19,7 @@ const CTASection = () => {
         </a>
         <a href="#explore" className="cta-card">
           <h3>Explore</h3>
-          <p>Dive deeper into the Khan Lab School experience.</p>
+          <p>Dive deeper into the MUJO's School experience.</p>
         </a>
       </div>
     </section>
