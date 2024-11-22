@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Contact Us</h3>
           <p>Email: info@school.com</p>
-          <p>Phone: +123 456 7890</p>
+          <p>Phone: +260977875855</p>
         </div>
 
         <div className="footer-section">
@@ -32,6 +32,9 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <p>&copy; 2024 School Name. All Rights Reserved.</p>
+      </div>
+      <div>
+        <p>Developed with love @Nerdarr</p>
       </div>
     </footer>
   );

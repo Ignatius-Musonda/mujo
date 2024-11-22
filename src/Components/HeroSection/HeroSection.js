@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div className="hero-overlay">
         <h1>Welcome to MUJO'S SKY LIMIT SCHOOL</h1>
         <p>Revolutionizing the way we learn.</p>
-        <a href="#learn-more" className="hero-cta">Apply now</a>
+        <a href="/admission" className="hero-cta">Apply now</a>
       </div>
     </section>
   );

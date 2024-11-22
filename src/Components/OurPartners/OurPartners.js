@@ -1,12 +1,14 @@
 import React from "react";
 import "./OurPartners.css";
-import img1 from "../Images/img1.jpg"
+import img1 from "../Images/MOE.png"
+import img2 from "../Images/ASBIRO.jpg"
+import img3 from "../Images/isazLogo.png"
 
 const partners = [
-  { name: "Partner 1", logo: "/images/partner1-logo.jpg" }, // Replace with actual paths
-  { name: "Partner 2", logo: "/images/partner2-logo.jpg" },
-  { name: "Partner 3", logo: "/images/partner3-logo.jpg" },
-  { name: "Partner 4", logo: "/images/partner4-logo.jpg" },
+ 
+  { name: "Ministry of Education", logo: img1 },
+  { name: "ASBIRO foundation", logo: img2 },
+  { name: "ISAZ", logo: img3 },
 ];
 
 const OurPartners = () => {
@@ -21,8 +23,8 @@ const OurPartners = () => {
           {partners.map((partner, index) => (
             <div className="partner-card" key={index}>
               <img
-                src={img1}
-               // src={partner.logo}
+                //src={img1}
+               src={partner.logo}
                 alt={partner.name}
                 className="partner-logo"
               />

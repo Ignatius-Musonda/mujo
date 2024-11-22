@@ -1,19 +1,50 @@
 
 import React, { useState } from "react";
 import "./OurChildren.css";
- import img1 from "../Images/img1.jpg"
+
+import img1 from "../Images/pup1.jpg";
+import img2 from "../Images/pup2.jpg";
+import img3 from "../Images/pup3.jpg";
+// import img4 from "../Images/pup4.jpg";
+import img5 from "../Images/pup5.jpg";
+// import img6 from "../Images/pup6.jpg";
+import img7 from "../Images/pup7.jpg";
+import img8 from "../Images/pu4.jpg";
+import img9 from "../Images/pup9.jpg";
+import img10 from "../Images/pup10.jpg";
+import img11 from "../Images/pup11.jpg";
+import img12 from "../Images/pup12.jpg";
 
 const images = [
-  "/images/child1.jpg", // Replace with your image paths
-  "/images/child2.jpg",
-  "/images/child3.jpg",
-  "/images/child4.jpg",
-  "/images/child5.jpg",
-  "/images/child6.jpg",
-  "/images/child7.jpg",
-  "/images/child8.jpg",
-  "/images/child9.jpg",
+  img1, img2, img3, img5, img7, img8, img9, img10, img11, img12
 ];
+
+//  import img1 from "../Images/pup1.jpg"
+//  import img1 from "../Images/pup3.jpg"
+//  import img1 from "../Images/pup3.jpg"
+//  import img1 from "../Images/pup3.jpg"
+//  import img1 from "../Images/pup3.jpg"
+//  import img1 from "../Images/pup3.jpg"
+//  import img1 from "../Images/pup3.jpg"
+//  import img1 from "../Images/pup3.jpg"
+//  import img1 from "../Images/pup3.jpg"
+//  import img1 from "../Images/pup3.jpg"
+//  import img1 from "../Images/pup3.jpg"
+// //  import img1 from "../Images/img1.jpg"
+// //  import img1 from "../Images/img1.jpg"
+// //  import img1 from "../Images/img1.jpg"
+
+// const images = [
+//   "/images/child1.jpg", // Replace with your image paths
+//   "/images/child2.jpg",
+//   "/images/child3.jpg",
+//   "/images/child4.jpg",
+//   "/images/child5.jpg",
+//   "/images/child6.jpg",
+//   "/images/child7.jpg",
+//   "/images/child8.jpg",
+//   "/images/child9.jpg",
+// ];
 
 const OurChildren = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -45,8 +76,8 @@ const OurChildren = () => {
               onClick={() => openLightbox(image)}
             >
               <img
-                src={img1}
-                // src={image}
+               // src={img1}
+                 src={image}
                 alt={`Child ${index + 1}`}
                 className="gallery-image"
               />

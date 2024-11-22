@@ -1,0 +1,17 @@
+.hero2 {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #f0f8ff;
+    background: url('../Images/Hero.jpg') center/cover no-repeat;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    color: #003366;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  

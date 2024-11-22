@@ -1,0 +1,60 @@
+.fees-table-container {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 800px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .fees-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .fees-table th,
+  .fees-table td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 0.8rem;
+  }
+  
+  .fees-table th {
+    background-color: #003366;
+    color: white;
+  }
+  
+  .fees-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .fees-table tr:hover {
+    background-color: #e8f0fe;
+  }
+  
+  /* Mobile-first styles */
+.fees-grid {
+    display: flex;
+    flex-direction: column; /* Stacks rows vertically on smaller screens */
+  }
+  
+  .fees-grid > div {
+    margin-bottom: 1rem;
+  }
+  
+  /* Tablet and above */
+  @media (min-width: 768px) {
+    .fees-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* Two-column layout for tablets */
+      gap: 1.5rem;
+    }
+  }
+  
+  /* Desktop and above */
+  @media (min-width: 1024px) {
+    .fees-grid {
+      grid-template-columns: repeat(4, 1fr); /* Four-column layout for wider screens */
+    }
+  }
+  
