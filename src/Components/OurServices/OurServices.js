@@ -8,7 +8,7 @@ const services = [
   {
     title: "Learner-Centered",
     description:
-      "At KLS, students have the space and encouragement to take control of their own learning journey. Our teacher-guides cultivate an environment that nurtures independence and curiosity. With ample time, space, and support, students are empowered to pursue authentic interests.",
+      "At MUJO'S, students have the space and encouragement to take control of their own learning journey. Our teacher-guides cultivate an environment that nurtures independence and curiosity. With ample time, space, and support, students are empowered to pursue authentic interests.",
     image: img1, // Update with actual image paths
     linkText: "Learn More",
   },

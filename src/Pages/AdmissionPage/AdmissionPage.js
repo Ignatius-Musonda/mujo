@@ -31,7 +31,7 @@ const AdmissionPage = () => {
           subtitle="Explore our tuition fees and download the admission form to get started."
         />
         <Section
-          title="Fee Structure (Zambian System)"
+          title="Fee Structure "
           content="We provide an affordable education system from Grade 1 to Grade 12. Below is a detailed breakdown of our fee structure."
         />
         <FeesTable />
