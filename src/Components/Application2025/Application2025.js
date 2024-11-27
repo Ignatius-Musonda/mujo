@@ -13,9 +13,9 @@ const Application2025 = () => {
         <div className="application-details">
           <h3>Important Dates:</h3>
           <ul>
-            <li>Application Deadline: January 15, 2025</li>
-            <li>Interviews: February 2025</li>
-            <li>Enrollment Confirmation: March 2025</li>
+            <li>1. Application process: ongoing for Term 1 2025</li>
+            <li>Opening Day: 7 th January, 2025</li>
+            <li>Closing Day: 4 th April, 2025</li>
           </ul>
         </div>
       </div>

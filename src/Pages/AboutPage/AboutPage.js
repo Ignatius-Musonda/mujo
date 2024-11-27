@@ -9,7 +9,7 @@ import "./AboutPage.css";
 
 import img1 from "../../Components/Images/img1.jpg"
 import Director from "../../Components/Images/Director.jpg"
-import pup10 from "../../Components/Images/pup10.jpg"
+import pup10 from "../../Components/Images/teachers.jpg"
 import ScrollToTop from "../../Components/ScrollTop/ScroolTop";
 
 
@@ -29,10 +29,7 @@ const AboutPage = () => {
       />
       <Section
         title="History and Background"
-        content={`Mujo’s Sky Limit School is located in Linda Compound, 16km southwest of Lusaka City, off Kafue Road. 
-        Established in 2006, it has grown from humble beginnings to serve a community of over 36,000 people. 
-        The school initially opened with classes from Baby to Grade 3 and has expanded to include up to Grade 7, 
-        providing a much-needed educational resource in a community with limited schooling options.`}
+        content={`Mujo’s Sky Limit School is located in Linda Compound, 16km southwest of Lusaka City, off Kafue Road. Established in 2006, it has grown from humble beginnings to serve a community of over 50,000 people. The school initially opened with classes from Baby to Grade 3 and has expanded to include up to senior secondary level (Grade 12), providing a much-needed educational resource in a community with limited schooling options.`}
       />
       <Section
         title="Community Support"

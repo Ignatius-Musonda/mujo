@@ -7,11 +7,8 @@ const OurVision = () => {
       <div className="vision-container">
         <h2 className="vision-title">Our Vision</h2>
         <p className="vision-description">
-          At Khan Lab School, our vision is to revolutionize education by
-          focusing on mastery-based learning, interdisciplinary thinking, and
-          self-paced progress. We empower students to take ownership of their
-          learning journey in a collaborative and nurturing environment.
-        </p>
+             To provide quality education in Linda Compound, surrounding areas and the nation at large ensuring children receive the knowledge and skills necessary to achieve their dreams and contribute meaningfully to society.
+         </p>
       </div>
     </section>
   );

@@ -32,7 +32,7 @@ const AdmissionPage = () => {
         />
         <Section
           title="Fee Structure "
-          content="We provide an affordable education system from Grade 1 to Grade 12. Below is a detailed breakdown of our fee structure."
+          content="We provide an affordable education system from Grade 1 to Grade 12. Below is a detailed breakdown of our fee structure. All fees are termly (for 3 months)."
         />
         <FeesTable />
         <Section
